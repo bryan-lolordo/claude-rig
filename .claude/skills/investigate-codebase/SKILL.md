@@ -1,6 +1,6 @@
 ---
 name: investigate-codebase
-description: Use when orienting in an unfamiliar codebase. Triggers on phrases like "what does this codebase do", "how does this project work", "help me understand this repo", "I just cloned X", "give me a tour", or when starting work in a directory that hasn't been discussed yet. Produces a structured investigation report rather than diving into code immediately.
+description: Use when orienting in an unfamiliar codebase. Triggers on phrases like "what does this codebase do", "how does this project work", "help me understand this repo", "I just cloned X", "give me a tour", or when starting work in a directory that hasn't been discussed yet. Produces a structured investigation report rather than diving into code immediately. For FDE engagement discovery, use the fde-discovery skill instead.
 ---
 
 # Investigate Codebase
@@ -8,6 +8,8 @@ description: Use when orienting in an unfamiliar codebase. Triggers on phrases l
 A repeatable methodology for orienting in an unfamiliar codebase. The goal is to produce a clear, structured understanding of what the project is, how it works, and where the leverage points are — before making any changes.
 
 Use this when I drop into a new repo or when I ask any variation of "what does this do."
+
+For FDE engagement work (where the goal is a client briefing with rig recommendations), use `fde-discovery` instead — this skill is the lighter, general-purpose orientation.
 
 ## The Process
 
